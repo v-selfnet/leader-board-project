@@ -1,3 +1,56 @@
-h1{
-    color: goldenrod;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins&family=Rubik+80s+Fade&family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/* top players */
+.section-title{
+    font-size: 22px;
+    margin-left: 50px;
+}
+.container{
+    background-color: white;
+    width: 1000px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.player, .banner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.photo img {
+    width: 80px;
+}
+hr{
+    margin: 30px 30px 0 30px;
+}
+
+/* blog */
+.banners{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.banner img{
+    width: 200px;
+    border-radius: 15px;
+    border:2px solid gray;
+}
+.blog-title{
+    width: 150px;
+}
+.blog-title p{
+   font-size: 14px;
 }
